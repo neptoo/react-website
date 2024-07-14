@@ -16,13 +16,16 @@ const HeroSection = () => {
       </p>
       <div className="flex justify-center my-8">
         <a
-          href="#"
+          href="mailto:heywuq@outlook.com"
           className="bg-gradient-to-r from-orange-500 to-orange-800 px-4 py-3 mx-3 rounded-md"
         >
           Contact Me
         </a>
-        <a href="#" className="px-4 py-3 mx-3 rounded-md border">
-          Github Blog
+        <a
+          href="https://github.com/neptoo/react-website"
+          className="px-4 py-3 mx-3 rounded-md border"
+        >
+          Github Repository
         </a>
       </div>
       <div className="flex mt-6 justify-center">
@@ -32,7 +35,7 @@ const HeroSection = () => {
           muted
           className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4"
         >
-          <source src={video1} type="video/mp4" />
+          <source src={video2} type="video/mp4" />
           Your browser does not support video tag.
         </video>
         <video
@@ -41,7 +44,7 @@ const HeroSection = () => {
           muted
           className="rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4"
         >
-          <source src={video2} type="video/mp4" />
+          <source src={video1} type="video/mp4" />
           Your browser does not support video tag.
         </video>
       </div>

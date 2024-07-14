@@ -25,9 +25,7 @@ const FeatureSection = () => {
               </div>
               <div>
                 <h5 className="text-xl mt-1 mb-4 text-nowrap ">{item.text}</h5>
-                <p className="text-neutral-500 text-md p-1 mb-8">
-                  {item.description}
-                </p>
+                <p className="text-neutral-500 p-1 mb-8">{item.description}</p>
               </div>
             </div>
           </div>

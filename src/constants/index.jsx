@@ -58,6 +58,15 @@ export const testimonials = [
   },
 ];
 
+export const testimonialTexts = [
+  "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+  "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+  "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+  "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+  "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+  "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+];
+
 export const features = [
   {
     icon: <BotMessageSquare />,
