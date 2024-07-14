@@ -20,7 +20,9 @@ const Navbar = () => {
           <ul className="hidden lg:flex space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href}>{item.label}</a>
+                <a href={item.href} className="text-lg">
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>
