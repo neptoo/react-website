@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { testimonials, testimonialTexts } from "../constants";
+import { testimonialTexts } from "../constants";
 
 const Testimonials = () => {
   const [users, setUsers] = useState([]);
@@ -41,7 +41,7 @@ const Testimonials = () => {
   }, []); // Empty dependency array means this effect runs once, like componentDidMount
 
   return (
-    <div className="mt-12 tracking-wide">
+    <div className="mt-12 tracking-wide" id="testimonials">
       {/* what am I looking for ? */}
       <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide my-5 lg:my-10">
         What people are saying

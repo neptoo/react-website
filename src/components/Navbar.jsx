@@ -15,7 +15,9 @@ const Navbar = () => {
           {/* logo */}
           <div className="flex items-center flex-shrink-0">
             <img className="w-10 h-10 mr-2" src={logo} alt="logo" />
-            <span className="text-xl tracking-tight">NEPTOO</span>
+            <a href="#" className="text-xl tracking-tight">
+              NEPTOO
+            </a>
           </div>
           <ul className="hidden lg:flex space-x-12">
             {navItems.map((item, index) => (
