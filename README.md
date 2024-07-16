@@ -41,7 +41,7 @@ npm install lucide-react
     │      Footer.jsx
     │      HeroSection.jsx
     │      Navbar.jsx
-    │      Pricing.jsx
+    │      Portfolio.jsx
     │      Testimonials.jsx
     │      Workflow.jsx
     │      

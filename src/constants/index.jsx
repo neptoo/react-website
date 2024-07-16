@@ -6,9 +6,10 @@ import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
 export const navItems = [
+  { label: "Home", href: "#" },
   { label: "Features", href: "#features" },
   { label: "Workflow", href: "#workflow" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Portfolio", href: "#portfolio" },
   { label: "Testimonials", href: "#testimonials" },
 ];
 
@@ -80,6 +81,42 @@ export const checklistItems = [
     title: "Share work in minutes",
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
+  },
+];
+
+export const projectOptions = [
+  {
+    title: "ZoomCV",
+    id: 0,
+    description: "Multi Page Website",
+    features: [
+      "VanillaJS / JQuery / TailwindCSS",
+      "CryptoJS / Websocket / ECharts",
+      "Fullscreen Carousel",
+      "Responsive",
+    ],
+  },
+  {
+    title: "Admin Dashboard",
+    id: 1,
+    description: "Vue JS Project",
+    features: [
+      "Vue2 / ElementUI / ECharts",
+      "Baidu Maps API",
+      "Permission Control",
+      "Real time Render",
+    ],
+  },
+  {
+    title: "zhuo xiao mian",
+    id: 2,
+    description: "Wechat Mini Program",
+    features: [
+      "WXML / WXSS / ES6+",
+      "Vant Weapp / EChart-for-weixin",
+      "Interactive Shopping cart",
+      "Optimize bundle size",
+    ],
   },
 ];
 
