@@ -37,7 +37,7 @@ npm install lucide-react
     ├─assets  # logo 图片和视频资源
     │      
     ├─components
-    │      FeatureSection.jsx
+    │      Skills.jsx
     │      Footer.jsx
     │      HeroSection.jsx
     │      Navbar.jsx

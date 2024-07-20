@@ -21,10 +21,11 @@ const Footer = () => {
           </ul>
         </div>
         {/* Link2 */}
+
         <div>
-          <h3 className="font-semibold mb-2">Platform</h3>
+          <h3 className="font-semibold mb-2">Community</h3>
           <ul className="space-y-1">
-            {platformLinks.map((link, index) => (
+            {communityLinks.map((link, index) => (
               <li key={index}>
                 <a
                   className="text-neutral-300 hover:text-white"
@@ -38,9 +39,9 @@ const Footer = () => {
         </div>
         {/* Link3 */}
         <div>
-          <h3 className="font-semibold mb-2">Community</h3>
+          <h3 className="font-semibold mb-2">Additional</h3>
           <ul className="space-y-1">
-            {communityLinks.map((link, index) => (
+            {platformLinks.map((link, index) => (
               <li key={index}>
                 <a
                   className="text-neutral-300 hover:text-white"

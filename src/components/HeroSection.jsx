@@ -4,15 +4,15 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-12">
       <h1 className="text-3xl sm:text-4xl lg:text-6xl text-center tracking-wide">
-        Where the world builds
+        A self taught
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
           {" "}
-          software
+          Front-End{" "}
         </span>
+        Developer
       </h1>
       <p className="mt-6 text-lg text-center text-neutral-500 max-w-4xl ">
-        Empowering innovation through cutting-edge technology and seamless
-        software solutions, pushing boundaries and ensuring clients stay ahead.
+        Building the Web, One Pixel at a Time
       </p>
       <div className="flex justify-center my-8">
         <a

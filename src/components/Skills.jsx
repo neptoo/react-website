@@ -1,21 +1,21 @@
 import React from "react";
 import { features } from "../constants";
 
-const FeatureSection = () => {
+const Skills = () => {
   return (
     <div
       className="relative mt-10 border-b border-neutral-800 min-h-[640px]"
-      id="features"
+      id="skills"
     >
       <div className="text-center">
-        <span className="bg-neutral-900 text-orange-500 rounded-full h-6 font-medium text-sm px-2 py-1 uppercase">
-          feature
+        <span className="bg-neutral-900 text-orange-500 rounded-full h-6 font-medium px-2 py-1 uppercase">
+          skills
         </span>
         <h2 className="text-3xl sm:text-4xl lg:text-5xl mt-6 lg:mt-12 tracking-wide">
-          Easily build
+          Where code meets
           <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
             {" "}
-            your code
+            creativity
           </span>
         </h2>
       </div>
@@ -38,4 +38,4 @@ const FeatureSection = () => {
   );
 };
 
-export default FeatureSection;
+export default Skills;

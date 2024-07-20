@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import FeatureSection from "./components/FeatureSection";
+import Skills from "./components/Skills";
 import Workflow from "./components/Workflow";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
@@ -13,7 +13,7 @@ const App = () => {
       <Navbar />
       <div className="max-w-7xl mx-auto pt-12 px-16 lg:px-24">
         <HeroSection />
-        <FeatureSection />
+        <Skills />
         <Workflow />
         <Portfolio />
         <Testimonials />

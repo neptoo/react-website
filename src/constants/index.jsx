@@ -7,7 +7,7 @@ import { GlobeLock } from "lucide-react";
 
 export const navItems = [
   { label: "Home", href: "#" },
-  { label: "Features", href: "#features" },
+  { label: "Skills", href: "#skills" },
   { label: "Workflow", href: "#workflow" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Testimonials", href: "#testimonials" },
@@ -25,39 +25,39 @@ export const testimonialTexts = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Front-End Frameworks",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Proficient in React and Vue.js, with experience in building responsive and scalable web applications using these frameworks.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Problem-Solving",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
-  },
-  {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
-    description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
-  },
-  {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
-    description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Proficient in systematic problem-solving approaches, including identifying problems, determining root causes, and finding multiple solutions.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Communication and Collaboration",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Proficient in fostering open communication, building strong relationships, and leveraging technology for effective collaboration.",
+  },
+  {
+    icon: <BatteryCharging />,
+    text: "Cross-Browser Compatibility",
+    description:
+      "Ensuring that web applications work seamlessly across different browsers is critical for a wide user base.",
+  },
+  {
+    icon: <ShieldHalf />,
+    text: "Code Testing and Debugging",
+    description:
+      "Strong skills in testing and debugging code are necessary for ensuring the quality and reliability of web applications.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Graphical Design",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Knowledge of graphical design principles can enhance the visual appeal of web applications.",
   },
 ];
 
@@ -154,19 +154,19 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
+  { href: "#", text: "About" },
+  { href: "#", text: "Blog" },
+  { href: "#", text: "Copyright" },
   { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Terms of Use" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Awards" },
+  { href: "#", text: "Logos" },
+  { href: "#", text: "Customer" },
+  { href: "#", text: "Collaboration" },
+  { href: "#", text: "Acknowledgment" },
 ];
 
 export const communityLinks = [
